@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Land of Boxes</title>
+</head>
+<body>
+    <h1>Land Of Boxes Order Form</h1>
+    <form action="">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="address">Address:</label>
+        <textarea name="address" id="" cols="30" rows="5"></textarea><br><br>
+
+        <label for="postcode">Postcode</label>
+        <input type="text" name="postcode" id="postcode"><br><br>
+
+        <table>
+
+            <tr>
+                <th>Product</th>
+                <th>Part Number</th>
+                <th>Quantity</th>
+                <th>Unit Price</th>
+                <th>Subtotal</th>
+            </tr>
+
+            <tr>
+                <th>Econo Box</th>
+                <th>LB100</th>
+                <th><input type="number" name="econo" id="econo"></th>
+                <th>R5</th>
+                <th><input type="text" name="r5" id="r5"></th>
+            </tr>
+
+            <tr>
+                <th>Standard Box</th>
+                <th>LB200</th>
+                <th><input type="number" name="standard" id="standard"></th>
+                <th>R10</th>
+                <th><input type="text" name="r10" id="r10"></th>
+            </tr>
+            
+            <tr>
+                <th>Premium Box/TD></th>
+                <th>LB300</th>
+                <th><input type="number" name="premium" id="premium"></th>
+                <th>R15</th>
+                <th><input type="text" name="r15" id="r15"></th>
+            </tr>
+
+            <tr>
+                <th>Deluxe Box/TD></th>
+                <th>LB400</th>
+                <th><input type="number" name="deluxe" id="deluxe"></th>
+                <th>R20</th>
+                <th><input type="text" name="r20" id="r20"></th>
+            </tr>
+
+            <tr>
+                <th>Super Deluxe Box/TD></th>
+                <th>LB500</th>
+                <th><input type="number" name="superDeluxe" id="superDeluxe"></th>
+                <th>R30</th>
+                <th><input type="text" name="r30" id="r30"></th>
+            </tr>
+
+            <tr>
+                <th colspan="4">Total:</th>
+                <th><input type="text" name="total" id="total"></th>
+            </tr>
+
+        </table>
+
+        <p>Credit Card Details</p>
+        
+        <p>Card Type: <br>
+            <input type="radio">MasterCard &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       
+            Card Number: <input type="number"> <br>
+            <input type="radio">Visa &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
+            Expiry Date: <input type="date"> <br>
+            <input type="radio">American Express <br>
+            <input type="radio">Diner's Club
+        </p>
+
+        <label for="deliveryaddress">Delivery Address:</label>
+        <textarea name="address" id="" cols="30" rows="5"></textarea><br><br>
+
+        <input type="button" value="Send Order">
+        <input type="button" value="Clear Form">
+
+    </form>
+</body>
+</html>
